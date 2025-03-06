@@ -1,4 +1,4 @@
-# How to Install Docker and Run AlmaLinux 9 Containers on Windows 11
+# How to Install Docker and Run AlmaLinux 9 on Windows 11
 Author: Mojtaba Roshana
 __________________________________________________________________
 
@@ -20,6 +20,30 @@ __________________________________________________________________
      ```powershell
      docker --version
 
-## Step 2: Verify Docker Installation
+### 2. Enable WSL 2
+- Open PowerShell as Administrator and run:
+  ```powershell
+  wsl --install
+  ```
+- Set WSL 2 as default:
+  ```powershell
+  wsl --set-default-version 2
+  ```
+  
+## Step 3: Pull the AlmaLinux 9 Image
 
+Open powrshell and run the following command to download the AlmaLinux 9 image:
+```
+docker pull almalinux:9
+```
+## Step 4: Run an AlmaLinux 9 Container
+Execute the following command to start a container in interactive mode:
+```
+docker run -it --name almalinux9-container almalinux:9
+```
+**Container Options Explained:**
+   - ```-it```: Runs the container in interactive mode with a terminal.
+   - ```--name almalinux9-container```: Assigns a name to the container.
+   - ```almalinux:9```: Specifies the AlmaLinux 9 image.
 
+Now you are in AlmaLinux 9!
