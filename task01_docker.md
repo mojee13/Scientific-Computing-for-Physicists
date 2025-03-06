@@ -41,11 +41,11 @@ docker pull almalinux:9
 ## Step 4: Run an AlmaLinux 9 Container
 Execute the following command to start a container in interactive mode:
 ```
-docker run -it --name almalinux9-1 almalinux:9
+docker run -it --name Example almalinux:9
 ```
 **Container Options Explained:**
    - ```-it```: Runs the container in interactive mode with a terminal.
-   - ```--name almalinux9A```: Assigns a name to the container.
+   - ```--name Example```: Assigns a name to the container.
    - ```almalinux:9```: Specifies the AlmaLinux 9 image.
 
 Now you are in AlmaLinux 9!
@@ -58,17 +58,17 @@ and execute it again with the command:
 To stop the container you can use the command
 
 ```
-docker stop almalinux9A
+docker stop Example
 ```
 
 and to start it :
 
 ``` 
-docker start almalinux9A
+docker start Example
 ```
 If you want to enter it:
 ```
-docker exec -it  almalinux9A bash
+docker exec -it  Example bash
 ```
 
 You can check the docker images by this command:
