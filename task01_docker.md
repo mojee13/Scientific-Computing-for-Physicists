@@ -21,7 +21,7 @@ __________________________________________________________________
      docker --version
 
 ### 2. Enable WSL 2
-The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps.
+The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps. With Docker Desktop running on WSL 2, users can leverage Linux workspaces and avoid maintaining both Linux and Windows build scripts. In addition, WSL 2 provides improvements to file system sharing and boot time. Docker Desktop uses the dynamic memory allocation feature in WSL 2 to improve the resource consumption.
 
 - Open PowerShell as Administrator and run:
   ```powershell
