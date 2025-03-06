@@ -1,15 +1,27 @@
  HOW TO INSTALL ALMALINUX 9 USING DOCKER on Windows 11
 Author: Mojtaba Roshana
 __________________________________________________________________
-# Step 1: Install Docker on Windows
+# How to Install Docker and Run AlmaLinux 9 Containers on Windows 11
 
-Docker provides a way to run AlmaLinux 9 as a container or within a virtual machine using WSL 2.
+## Step 1: Install Docker Desktop on Windows 11
 
-## 1. Enable Virtualization
-Ensure that **virtualization** is enabled in your BIOS settings.
-- Check virtualization support in **Task Manager** → **Performance** → **CPU** (it should say **"Virtualization: Enabled"**).
+1. **Download Docker Desktop**
+   - Go to the [Docker Desktop Download Page](https://www.docker.com/products/docker-desktop/).
+   - Choose "Docker Desktop for Windows" and download the installer.
+  
+2. **Run the Installer**
+   - Double-click the downloaded file to start the installation.
+   - Follow the setup wizard instructions to complete the installation.
+   - Your system wil be restard after instalation
 
-## 2. Install WSL 2 (Windows Subsystem for Linux)
-Open **PowerShell as Administrator** and run:
+3. **Start Docker Desktop**
+   - After installation, Docker Desktop will start automatically.
+   - Ensure Docker Desktop is running by checking the whale icon in the system tray.
+
+## Step 2: Verify Docker Installation
+
+Open PowerShell or Windows Terminal and run:
+
 ```powershell
-wsl --install
+docker --version
+
