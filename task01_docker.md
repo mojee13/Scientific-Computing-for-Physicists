@@ -21,6 +21,7 @@ __________________________________________________________________
      docker --version
 
 ### 2. Enable WSL 2
+The Windows Subsystem for Linux (WSL) is a feature of the Windows operating system that enables you to run a Linux file system, along with Linux command-line tools and GUI apps, directly on Windows, alongside your traditional Windows desktop and apps.
 
 - Open PowerShell as Administrator and run:
   ```powershell
