@@ -65,10 +65,6 @@ You can exit with the following command:
 ```
 exit
 ```
-And execute it again with the command:
-```
-docker start Example
-```
 
 ## Step 5: Manage Your AlmaLinux 9 Container
 
