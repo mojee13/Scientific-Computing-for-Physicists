@@ -1,6 +1,8 @@
 # How to Install Docker and Run AlmaLinux 9 on Windows 11
 Author: Mojtaba Roshana
 __________________________________________________________________
+## Introduction
+Docker is a powerful containerization tool that allows you to run applications in isolated environments, making development and deployment more efficient. This guide will walk you through installing Docker on Windows 11, enabling Windows Subsystem for Linux (WSL 2), and running AlmaLinux 9 as a container. By following these steps, you can leverage the flexibility of Linux within Windows while keeping your workflows streamlined.
 
 ## Step 1: Install Docker Desktop on Windows 11
 
