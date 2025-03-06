@@ -57,7 +57,9 @@ and execute it again with the command:
 
 To stop the container you can use the command
 
-``` docker stop almalinux9A  ```
+```
+docker stop almalinux9A
+```
 
 and to start it :
 
