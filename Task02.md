@@ -210,12 +210,9 @@ int main() {
 ```
 
 ## Discussion
+C was **faster** than Python due to **manual memory allocation** and lower-level optimizations.
 
-### 1. Problems Running the Code?
-- No issues were encountered.
-- C was **faster** than Python due to **manual memory allocation** and lower-level optimizations.
-
-### 2. Did the Computation Validate Correctly?
+### Did the Computation Validate Correctly?
 - Initially, floating-point **precision issues** caused incorrect results.
 - Fixed using **np.isclose()** in Python and **EPSILON-based checks** in C.
 - In **Point 3 (Matrix Multiplication)**, the expected value should be **21.3 * N**, not **21.3**.
